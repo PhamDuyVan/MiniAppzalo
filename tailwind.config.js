@@ -1,9 +1,11 @@
-module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./src/**/*.{js,jsx,ts,tsx,vue}'],
-  },
-  theme: {
-    extend: {},
-  },
-};
+export default {
+content: ['./index.html','./src/**/*.{js,jsx}'],
+theme: {
+extend: {
+colors: {
+zaloBlue: '#0080FF'
+}
+}
+},
+plugins: []
+}

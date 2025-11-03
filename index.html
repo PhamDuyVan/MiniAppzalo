@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0080FF" />
     <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:"
+      name="description"
+      content="Mini Zalo App - Ứng dụng chat hiện đại bằng ReactJS với xác thực, bạn bè, và nhắn tin realtime."
     />
+    <meta property="og:title" content="Mini Zalo App" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover"
+      property="og:description"
+      content="Trải nghiệm ứng dụng chat Zalo phiên bản mini được xây dựng bằng ReactJS."
     />
-
-    <meta name="theme-color" content="#007aff" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <title>Zalo Mini App</title>
+    <meta property="og:type" content="website" />
+    <title>Mini Zalo App</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB2ElEQVR42qWTzUoCURSG33uCuBBBYTEbKoNENAKKxUYjL2Czm9g2c+gMJA1VGo0aQxER5hYxgNQ5gRgFiIUIYRA0nQ7sR87cujpC+fe0mTN7w8c7b34w6K3vZ3HZr3n8/u8v+wWjxzA6PgIfYDRFgLG6a3xmuVJpRLOA5oUBt0PzjClc74DDBA5PaI1D3CGZqXIzPlsot0+BGStXyRVH+ID1EtoZxHqBwL4zIJU5m3ce7/jynXcGEWBRO3Gh4+glbovQWucbn5MCGVbqXULSeP6uHkgJ7G9TxX8L1y6XalFeCZon0oqNjFQ6Sm/fbnc0U5cyIr+AL/F6AoKl63X/oCYx1WgNsHRaBwZoRiM3rbc2SoVcnf8eAfE+inRdG6vX4gMBrCe8QpQSKy8MMm45DPZKnyXyoGbCHPms3+K5kW0Y7uRVluKPdrRG3vP2CdzJY7M1CLehTd3Xh4rNjfqxTbx+jI0/hjfs34F+y4vRBPwAAAABJRU5ErkJggg=="
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/src/main.jsx"></script>
   </head>
-  <body>
-    <div id="app"></div>
-    <!-- built script files will be auto injected -->
-    <script type="module" src="/src/app.js"></script>
+
+  <body class="bg-gradient-to-tr from-blue-400 via-purple-400 to-pink-400 min-h-screen text-gray-800 font-inter">
+    <div id="root"></div>
   </body>
 </html>
